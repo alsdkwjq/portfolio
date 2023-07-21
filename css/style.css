@@ -106,13 +106,14 @@ a:hover {
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: .7;
+  
 }
 
 .paralax-mf {
   position: relative;
   padding: 8rem 0;
 }
+#bici>.overlay-mf{background-color: #c6c6c6 !important;}
 
 .display-table {
   width: 100%;
@@ -333,7 +334,7 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #2a4b34;
+  background: #657d6d;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -427,7 +428,7 @@ a:hover {
 
 .navbar-b.navbar-trans .nav-link,
 .navbar-b.navbar-reduce .nav-link {
-  color: #fff;
+  color: #2a4b34;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -519,6 +520,7 @@ a:hover {
   font-size: 1.6rem;
   font-weight: 600;
 }
+.navbar-b .navbar-brand>img{width: 66%;}
 
 .navbar-b .navbar-nav .dropdown-item.show .dropdown-menu,
 .navbar-b .dropdown.show .dropdown-menu,
@@ -608,9 +610,11 @@ a:hover {
 ======================================*/
 
 .intro {
-  height: 100vh;
+  height: 0;
   position: relative;
   color: #fff;
+  padding-top: calc(928/1903 * 100%);
+  background-position: center top;
 }
 
 .intro .intro-content {
@@ -630,7 +634,7 @@ a:hover {
 }
 
 .intro .intro-title {
-  color: #fff;
+  color: #2a4b34;
   font-weight: 600;
   font-size: 3rem;
 }
@@ -1234,11 +1238,13 @@ footer .credits a {
   }
 
   .intro .intro-title {
-    font-size: 4.5rem;
+    font-size: 4.5rem; 
+    margin-top: 280px
+    ; padding-right: 600px;
   }
 
   .intro .intro-subtitle {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 
   .intro-single .intro-title {
